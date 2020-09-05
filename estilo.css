@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+html, body{
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo  {
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+
+}
+
+#menu  {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a:link#menu1{  
+    color: white;
+    text-decoration:none;
+}
+
+a:visited#menu1{
+    color: white;
+    text-decoration:none;
+}
+
+li{
+    float: left;
+    padding: 36 25 25 25;
+}
+
+li:hover{
+    background-color: green;
+}
+
+#img1{
+    background: url("img/Fundo\ 2.png") no-repeat bottom center scroll;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+}
+
+.eu{ 
+    border-radius: 50%;
+    padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+#titulo{
+    color: #1DC450;
+    text-align: center;
+    font-size: 110px;
+    padding-top: 340px;
+    font-family: 'Quicksand', sans-serif;
+    font-style: bold;
+    text-shadow: green 2px 2px 2px;
+}
+
+#subtitulo{
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 60px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    line-height: 0px;
+}
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+
+.dois{
+    width: 40%;
+}
+
+.cinco{
+    width: 10%;
+}
+
+.tres{
+    width: 29%;
+    padding: 0 2%;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.centro{
+    text-align: center;
+}
+
+#sobreorecicla{
+    background-color: #c2e5cd;
+    padding: 20px;
+    float: left;
+}
+
+#reciclagem{
+    background-color: #f7f7f7;
+    padding: 20px;
+    float: left;
+}
+
+#guiadereciclagem{
+    background-color: #c2e5cd;
+    padding: 20px;
+    float: left;
+}
+
+#sobremim{
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.titulo2{
+    font-family: 'Quicksand', sans-serif;
+    font-style: bold;
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+.titulo5{
+    font-family: 'Quicksand', sans-serif;
+    font-style: bold;
+    font-size: 25px;
+    text-indent: 2em;
+}
+
+.texto1{
+    font-size: 25px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-indent: 2em;
+    line-height: 15px;
+ 
+}
+
+.texto{
+    font-size: 25px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-indent: 2em;
+    line-height: 30px;
+ 
+}
+
+.textoend{
+    font-size: 25px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-indent: 2em;
+    line-height: 40px;
+    text-align: center;
+ 
+}
+
+.texticon{
+    font-size: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    line-height: 25px;
+    color: black;
+}
+
+.icone{
+    width: 100px;
+}
+
+.titulo3{
+    font-family: 'Quicksand', sans-serif;
+    font-style: bold;
+    font-size: 25px;
+}
+
+.titulo4{    
+    font-family: 'Quicksand', sans-serif;
+    font-style: bold;
+    font-size: 50px;
+}
+
+a:link.texticon{  
+    color: black;
+    text-decoration:none;
+}
+
+a:visited.texticon{
+    color: black;
+    text-decoration:none;
+}
+
+footer{ 
+    background-color: #1db162;
+    float: left;
+    width: 100%;
+}
+
+@media all and (max-width: 768px) {
+    
+    #menu{
+            visibility: hidden;
+    }
+    .coluna, .dois, .tre, .cinco{
+            display: block;
+            width: 80%;
+            padding: 0;
+            margin: 10px auto;
+            float: none;
+    }
+    
+
+    #logodiv{ 
+            width: 100%;
+            position: relative;
+            text-align: center;
+    }
+
+    #logo{
+            margin-left: 0px;
+            transform: translateX(-50%)
+    }
+}
